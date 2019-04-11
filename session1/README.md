@@ -6,6 +6,7 @@ To actually be able to display anything with Three.js, we need three things: A s
 <br>
 The relationship between three conditions
 ---
+<br>
 ![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/ThreeConditions.jpg)
 <br>
 Geometry
