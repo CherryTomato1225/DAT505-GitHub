@@ -1,17 +1,28 @@
-DAT505-GitHub
+The Three conditions for using three. js
 ===
-Introduction
----
-All the files were used in the creative coding course to learning three.js.<br>  
-Each folder contains the examples and exercise used in class on that day.
+To actually be able to display anything with Three.js, we need three things: **A scene, a camera, and a renderer** so we can render the scene with the camera.
+####The relationship between three conditions
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/ThreeConditions.jpg)
+Geometry
+===
+####BoxGeometry
+BoxGeometry(width, height, dept, widthSegments, heightSegments, depthSegments)
+<br>
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/BoxGeometry.png)
+<br>
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/BoxGeometry.jpg)
 
-Note
----
-The exercise or homework that I did based on what I learned in class are in folders named:**xx-xx-pratice**.Please look it over~<br>
+####SphereGeometry
+SphereGeometry(radius, widthSegments, heightSegments, phiStart, phiLength, thetaStart, thetaLength)
 
-for example:<br>
+####ShapeGeometry
+The ShapeGeometry is used to create a polygon plane.
 <br>
-![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/example.png)
+ShapeGeometry(shapes, options)
+
+####Tetrahedron/Octahedron/Icosahedron
+THREE.TetrahedronGeometry(radius, detail)
 <br>
+THREE.OctahedronGeometry(radius, detail)
 <br>
-Thank you for your time!
+THREE.IcosahedronGeometry(radius, detail)
