@@ -1,6 +1,11 @@
-The Three conditions for using three. js
+Three.js
 ===
+
+The Three conditions for using three. js
+---
+
 To actually be able to display anything with Three.js, we need three things: A scene, a camera, and a renderer so we can render the scene with the camera.
+
 The relationship between three conditions
 ---
 ![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/ThreeConditions.jpg)
