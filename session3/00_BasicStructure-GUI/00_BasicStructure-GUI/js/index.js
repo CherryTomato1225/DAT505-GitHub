@@ -10,7 +10,6 @@ var de2ra = function(degree) {
 };
 
 init();
-render();
 
 function init(){
   // Create an empty scene --------------------------
@@ -126,6 +125,7 @@ var render = function () {
   // Render the scene
   renderer.render(scene, camera);
 };
+render();
 
 //Color converter
 function dec2hex(i) {
