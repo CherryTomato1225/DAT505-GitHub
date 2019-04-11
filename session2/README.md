@@ -6,11 +6,16 @@ Materials determine the geometry's appearance, such as whether it looks like met
 Three commonly used materials
 ---  
 
-#### MeshBasicMaterial
+### MeshBasicMaterial
 
 A material for drawing geometries in a simple shaded (flat or wireframe) way.
 <br>
 This material is not affected by lights.
 
-MeshLambertMaterial
----
+### MeshLambertMaterial
+
+A material for non-shiny surfaces, without specular highlights.
+
+### MeshPhongMaterial
+
+A material for shiny surfaces with specular highlights.
