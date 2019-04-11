@@ -104,7 +104,7 @@ var material = new THREE.MeshPhysicalMaterial({
 });
 */
 
-mesh = new THREE.Mesh( geometry, material );
+mesh = new THREE.Mesh( geometry, material2 );
 mesh.position.z = -1000;
 // ------------------------------------------------
 

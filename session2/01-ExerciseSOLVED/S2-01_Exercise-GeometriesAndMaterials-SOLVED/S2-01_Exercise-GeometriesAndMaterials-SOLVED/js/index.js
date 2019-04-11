@@ -38,19 +38,19 @@ scene.add(light2);
 var geometry = new THREE.BoxGeometry(100, 100, 100);
 
 // MATERIAL 1:
-var material1 = new THREE.MeshBasicMaterial( { color: "#433F81" } );
+//var material = new THREE.MeshBasicMaterial( { color: "#433F81" } );
 
 //MATERIAL 2:
-var material2 = new THREE.MeshNormalMaterial();
+//var material = new THREE.MeshNormalMaterial();
 
 //MATERIAL 3:
-
-var material3 = new THREE.MeshLambertMaterial({
+/*
+var material = new THREE.MeshLambertMaterial({
   color: "#433F81",
   transparent: true,
   opacity: 1
 });
-
+*/
 
 //MATERIAL 4:
 //var material = new THREE.MeshPhongMaterial({shininess: 1});
@@ -68,9 +68,9 @@ var material = new THREE.MeshLambertMaterial({
 });
 
 
-
+/*
 //MATERIAL 6 (shiny material):
-var material4 = new THREE.MeshPhongMaterial({
+var material = new THREE.MeshPhongMaterial({
   color: 0xF3FFE2,
   specular: 0xffffff,
   shininess: 1000,
@@ -85,7 +85,7 @@ var material4 = new THREE.MeshPhongMaterial({
   displacementBias: 0,
   specularMap: null
 });
-
+*/
 
 /*
 //MATERIAL 6 (combination of shiny + non-shinny):
@@ -108,69 +108,61 @@ var material = new THREE.MeshPhysicalMaterial({
 });
 */
 
-var material = new THREE.MeshDepthMaterial({
-  color: 0xF3FFE2,
-  roughness: 0,
-  metalness: 0.5,
-  reflectivity: 0.5,
-  clearCoat: 0,
-  claerCoatRoughness: 0
-
-var mesh1 = new THREE.Mesh( geometry, material2 );
+var mesh1 = new THREE.Mesh( geometry, material );
 mesh1.position.z = -1000;
 mesh1.position.y = 100;
 
-var mesh2 = new THREE.Mesh( geometry, material2 );
+var mesh2 = new THREE.Mesh( geometry, material );
 mesh2.position.z = -1000;
 mesh2.position.x = -100;
 mesh2.position.y = 200;
 
-var mesh3 = new THREE.Mesh( geometry, material2 );
+var mesh3 = new THREE.Mesh( geometry, material );
 mesh3.position.z = -1000;
 mesh3.position.x = -200;
 mesh3.position.y = 100;
 
-var mesh4 = new THREE.Mesh( geometry, material2 );
+var mesh4 = new THREE.Mesh( geometry, material );
 mesh4.position.z = -1000;
 mesh4.position.x = 100;
 mesh4.position.y = 200;
 
-var mesh5 = new THREE.Mesh( geometry, material2 );
+var mesh5 = new THREE.Mesh( geometry, material );
 mesh5.position.z = -1000;
 mesh5.position.x = 200;
 mesh5.position.y = 100;
 
-var mesh6 = new THREE.Mesh( geometry, material4 );
+var mesh6 = new THREE.Mesh( geometry, material );
 mesh6.position.z = -1000;
 mesh6.position.x = 0;
 mesh6.position.y = -100;
 
-var mesh7 = new THREE.Mesh( geometry, material4 );
+var mesh7 = new THREE.Mesh( geometry, material );
 mesh7.position.z = -1000;
 mesh7.position.x = -100;
 mesh7.position.y = 0;
 
-var mesh8 = new THREE.Mesh( geometry, material4 );
+var mesh8 = new THREE.Mesh( geometry, material );
 mesh8.position.z = -1000;
 mesh8.position.x = -200;
 mesh8.position.y = -100;
 
-var mesh9 = new THREE.Mesh( geometry, material4 );
+var mesh9 = new THREE.Mesh( geometry, material );
 mesh9.position.z = -1000;
 mesh9.position.x = 100;
 mesh9.position.y = 0;
 
-var mesh10 = new THREE.Mesh( geometry, material4 );
+var mesh10 = new THREE.Mesh( geometry, material );
 mesh10.position.z = -1000;
 mesh10.position.x = 200;
 mesh10.position.y = -100;
 
-var mesh11 = new THREE.Mesh( geometry, material2 );
+var mesh11 = new THREE.Mesh( geometry, material );
 mesh11.position.z = -1000;
 mesh11.position.x = -100;
 mesh11.position.y = -200;
 
-var mesh12 = new THREE.Mesh( geometry, material2 );
+var mesh12 = new THREE.Mesh( geometry, material );
 mesh12.position.z = -1000;
 mesh12.position.x = 100;
 mesh12.position.y = -200;
