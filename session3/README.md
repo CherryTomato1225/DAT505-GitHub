@@ -7,9 +7,9 @@ Various types of controls
 ---
 
 #### 1.Number
-`var controls = new function () {`<br>
-    `this.rotationSpeed = 0.02;`<br>
-`};`
+`var controls = new function () {
+    ``this.rotationSpeed = 0.02;
+``};`
 #### 2.String
 
 #### 3.Boolean
