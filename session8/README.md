@@ -1,6 +1,6 @@
 THREE.OBJLoader
 ===
-Create a loader variable to import the model
+Create a loader variable to import the model<br>
 `var loader = new THREE.OBJLoader();`
 
 First, The code below represents the model path.Second, it represents the callback function after the import, in which we generally need to add the imported model to the scene.
@@ -15,7 +15,6 @@ loader.load('libs/port.obj', function(obj) {
                     mesh = obj;// stored in a global variable
                     scene.add(obj);// add the imported model to the scene
                 });
-
 ```
 
 three.audio
