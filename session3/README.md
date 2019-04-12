@@ -11,7 +11,14 @@ Various types of controls
 var controls = new function () {
    this.rotationSpeed = 0.02;
 };
+
+var gui = new dat.GUI();
+gui.add(controls, 'rotationSpeed', 0, 0.5);
+
 ```
+<br>
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/RS.png)
+
 #### 2.String
 
 #### 3.Boolean
