@@ -1,14 +1,22 @@
-DAT505-GitHub
+dat.GUI
 ===
-Introduction
----
-All the files were used in the creative coding course to learning three.js.<br>  
-Each folder contains the examples and exercise used in class on that day.
 
-Note
----
-The exercise or homework that I did based on what I learned in class are in folders named:**xx-xx-pratice**.Please look it over~<br>
+A lightweight graphical user interface for changing variables in JavaScript.
 
+Various types of controls
+---
+
+#### 1.Number
+`<var controls = new function () {
+    this.rotationSpeed = 0.02;
+};>`
+#### 2.String
+
+#### 3.Boolean
+
+#### 4.Function
+
+#### 5.Color
 for example:<br>
 <br>
 ![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/example.png)
