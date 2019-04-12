@@ -1,17 +1,16 @@
-DAT505-GitHub
+Group[]
 ===
-Introduction
----
-All the files were used in the creative coding course to learning three.js.<br>  
-Each folder contains the examples and exercise used in class on that day.
+```
+var objects = [];
 
-Note
----
-The exercise or homework that I did based on what I learned in class are in folders named:**xx-xx-pratice**.Please look it over~<br>
+for (var x = -10; x <= 10; x += 5) {
 
-for example:<br>
-<br>
-![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/example.png)
-<br>
-<br>
-Thank you for your time!
+  var boxGeometry = new THREE.BoxGeometry(3, 6, 3);
+  var boxMaterial = new THREE.MeshLambertMaterial({color: Math.random() * 0xFFFFFF});
+  var mesh = new THREE.Mesh(boxGeometry, boxMaterial);
+
+scene.add(mesh);
+objects.push( mesh );
+}
+
+```
