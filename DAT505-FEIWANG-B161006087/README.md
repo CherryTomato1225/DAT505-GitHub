@@ -1,5 +1,7 @@
 ## RAINBOW RAIN- WANGFEI- B161006087
 
+* [MY GitHub](https://github.com/CherryTomato1225/DAT505-GitHub/tree/master/DAT505-FEIWANG-B161006087)
+
 ## Introduce
 
 Click the mouse will drop rain,raindrops will form ripples in the water and cause sound.
