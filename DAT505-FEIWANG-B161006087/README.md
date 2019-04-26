@@ -27,3 +27,10 @@ Contains ``style.css``which defines background color, font style, etc.
 #### js
 
 Contains ``index.js``
+
+## Final effect
+
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/RBR-Preview1.png)
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/RBR-Preview2.png)
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/RBR-Preview3.png)
+![](https://github.com/CherryTomato1225/DAT505-GitHub/blob/master/session2/03-HowToCopyCase/textures/RBR-Preview4.png)
