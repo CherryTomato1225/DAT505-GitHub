@@ -24,5 +24,16 @@ Code
 ```
 mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
 mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+```
+ Mouse click position:` A=(x1,y1),x1=e.clintX, y1=e.clientY`.
+ World coordinate system:` A=(x2,y2);`
+
+ 由于A点的坐标值的原点是以屏幕左上角为(0,0);
+ 我们可以计算可得以屏幕中心为原点的B'值
+ x2' = x1 - innerWidth/2
+ y2' = innerHeight/2 - y1
+ 又由于在世界坐标的范围是[-1,1],要得到正确的B值我们必须要将坐标标准化
+ x2 = (x1 -innerWidth/2)/(innerwidth/2) = (x1/innerWidth)*2-1
+ 同理得 y2 = -(y1/innerHeight)*2 +1
 
 ```
