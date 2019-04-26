@@ -273,7 +273,7 @@ class App {
       el.autostart = "True";
       document.body.appendChild(el);
 
-    }, 1000);
+    }, 300);
   }
 
   draw() {
