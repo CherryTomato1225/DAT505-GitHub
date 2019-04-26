@@ -15,4 +15,8 @@ Here are some examples that I refer to.
 * [Typeface](https://codepen.io/matrosero/pen/VNdNoE)
 
 ## Folder explanation
-``css``
+``sound``Contains three sound files that are the sound of raindrops.
+<br>
+``css``Contains ``style.css``which defines background color, font style, etc.
+<br>
+``js``Contains ``index.js``
