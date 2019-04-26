@@ -16,12 +16,14 @@ Here are some examples that I refer to.
 
 ## Folder explanation
 
-####sound
+#### sound
 
 Contains three sound files that are the sound of raindrops.
 
-####css
+#### css
+
 Contains ``style.css``which defines background color, font style, etc.
 
-####js
+#### js
+
 Contains ``index.js``
