@@ -1,8 +1,9 @@
-## RAINBOW RAIN- FEI WANG- B161006087
+## RAINBOW RAIN- WANGFEI- B161006087
 
 ## Introduce
 
 Click the mouse will drop rain,raindrops will form ripples in the water and cause sound.
+<br>
 <br>
 The color of the water surface can be changed by the UI in the upper right corner, but the color of raindrops is random and cannot be changed.
 

@@ -42,8 +42,7 @@ class App {
     this.interval = 0;
     this.waterDropPositions = [];
     this.ripples = [];
-    //kg?
-    this.kg = false;
+    this.mouseclick= false;
   }
 
   createScene() {
@@ -223,7 +222,7 @@ class App {
 
 
     this.interval = setInterval(() => {
-    if (!_this.kg) return;
+      //material of waterDrop
       const meshParams = {
         color: Math.random() * 0xFFFFFF,
         metalness: 0,
@@ -237,8 +236,9 @@ class App {
       waterDrop.position.set(x, 50, z);
       this.scene.add(waterDrop);
 
+      if (!_this.mouseclick) return;
       if (_this.vindex == 5) {
-          _this.kg = false;
+          _this.mouseclick = false;
           _this.vindex = 0;
       }
 
@@ -262,18 +262,18 @@ class App {
       }
       _this.vindex++;
 
-      //获取已存在音乐并执行移除，等待下一首创建
+      //Add sound effects
       var elb = document.getElementById('testEmbed');
-      //动态创建音乐，添加到页面并自动播放
       var el = document.createElement('embed');
       el.id = "testEmbed";
+      //shuffle play
       let msIndex = Math.floor(Math.random() * 3 + 1);
       el.src = "sound/rain" + msIndex + ".mp3";
       el.loop = "-1";
       el.autostart = "True";
       document.body.appendChild(el);
 
-    }, 300);
+    }, 200);
   }
 
   draw() {
@@ -320,7 +320,7 @@ class App {
   init() {
     var _this=this;
     document.addEventListener("mousedown",function(){
-      _this.kg=true;
+      _this.mouseclick=true;
       _this.animateWaterDrops();
     })
 
